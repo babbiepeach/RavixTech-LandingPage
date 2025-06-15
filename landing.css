@@ -332,3 +332,207 @@ button:hover {
   margin-right: 8px;
   vertical-align: middle;
 }
+      /* Contact Section Styles */
+      .section-4 {
+        background-color: #f8f9fb;
+        padding: 80px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-container {
+        background-color: white;
+        padding: 60px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+      }
+
+      .contact-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        color: #176394;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        padding: 15px 20px;
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        transition: border-color 0.3s ease;
+        background-color: #f8f9fb;
+      }
+
+      .form-group input:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: #176394;
+        background-color: white;
+      }
+
+      .form-group textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+
+      .submit-btn {
+        background-color: #176394;
+        color: white;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+      }
+
+      .submit-btn:hover {
+        background-color: #1e4587;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #1a2332;
+        color: white;
+        padding: 60px 40px 30px;
+      }
+
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+
+      .footer-brand {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footer-logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .footer-logo-icon {
+        width: 40px;
+        height: 40px;
+        background-color: #176394;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .footer-brand-name {
+        font-size: 24px;
+        font-weight: 600;
+        color: #7fb3d3;
+      }
+
+      .footer-description {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #a0a9b8;
+        max-width: 350px;
+      }
+
+      .footer-section h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      .footer-links {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-links li {
+        margin-bottom: 12px;
+      }
+
+      .footer-links a {
+        color: #a0a9b8;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+      }
+
+      .footer-links a:hover {
+        color: #7fb3d3;
+      }
+
+      .footer-bottom {
+        border-top: 1px solid #2a3441;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: #a0a9b8;
+      }
+
+      .footer-bottom-links {
+        display: flex;
+        gap: 30px;
+      }
+
+      .footer-bottom-links a {
+        color: #a0a9b8;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .footer-bottom-links a:hover {
+        color: #7fb3d3;
+      }
+
+      @media (max-width: 768px) {
+        .footer-content {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+        
+        .footer-bottom {
+          flex-direction: column;
+          gap: 15px;
+          text-align: center;
+        }
+        
+        .contact-container {
+          padding: 40px 30px;
+        }
+        
+        .contact-title {
+          font-size: 28px;
+        }
+      }
